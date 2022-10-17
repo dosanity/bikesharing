@@ -11,6 +11,8 @@ The purpose of this project is to analyze Citi bike data from New York City to s
 
 ## Results
 
+### [Tableau Dashboard](https://public.tableau.com/app/profile/anthony5590/viz/NYCChallenge_16659655537160/NYCStory?publish=yes)
+
 ### Checkout Times for Users
 As we can see from the chart below, almost all bikes are checked out for less than one hour and the duration for most of the bike rides is around 5 minutes.
 ![Checkout-Times-for-Users](https://user-images.githubusercontent.com/29410712/196068945-ecd8f890-9660-4526-acba-e8b71f690c69.png)
@@ -28,12 +30,27 @@ Both male and female riders have similar trends. Most tend to use the Citi bikes
 ![Trips-by-Gender](https://user-images.githubusercontent.com/29410712/196068973-068f0c48-65e0-49bf-965b-c03e1b1c8114.png)
 
 ### User Trips by Gender by Weekday
+This heatmap shows the number of bike trips broken down by gender for each day of the week by each Usertype. We can see that the majority of users are subscribers and that male subscribers represent the greatest rider demographic.
 ![User-Trips-by-Gender](https://user-images.githubusercontent.com/29410712/196070120-b2d53da7-ebf7-4e90-873a-11fdea09a214.png)
 
 ### Top Starting Locations
+The visualization below illustrates the top bike stations in the city for starting a journey. We see that the top starting locations are clustered in the downtown area of New York with the larger symbols on the map representing the more popular locations.
 ![Top-Starting-Locations](https://user-images.githubusercontent.com/29410712/196068983-f49b3776-d3d2-4aa7-b2ff-b8b8fd397ac0.png)
 
 ### August Peak Hours
+From the chart below, we can see that the afternoon commuting hours have a higher number of Citi bike usage during the month of August. Most people use the Citi bikes between 5pm - 6pm.
 ![August-Peak-Hours](https://user-images.githubusercontent.com/29410712/196068996-96c85019-d16d-4c8e-a047-076c3ebbb9c4.png)
 
+## Summary
 
+From the visualizations created in Tableau, we can conclude that:
+
++ The Citi bikes are mostly used during commuting hours on the weekdays and throughout the day on the weekends. 
++ There are more male riders than female riders.
++ The trip duration of the bikes is less than 10 minutes.
++ Most of the bikes will be used in the downtown area of the city.
+
+Recommended Visualizations:
+
++ A graph to visualize the amount of trips by each age group.
++ A bar chart to determine which month yields the greatest amount of riders.
